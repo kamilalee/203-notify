@@ -57,8 +57,55 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 100%;
 }
+/*------*/
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    max-width:1000px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.quadro2 img {
+    background-color:rgb(83, 198, 94);
+    border-radius: 100%;
+    padding: 17px;
+}
 
-@media(min-width: 768px){
+.quadro3{
+    display:flex;
+    background-color: grey;
+    height: 350px;
+    justify-content: space-around;
+}
+
+.container2{
+    display:flex;
+    max-width: 1000px;
+    
+    
+}
+
+.formulario{
+    align-items: left;
+    text-align: justify;
+    width: 500px;
+ }
+.video{
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size:19px;
+}
+p{
+    font-size:15px;
+    
+}
+@media(min-width: 768px){  /*media do banner1*/
     .banner{
         height: 38vw;
         padding: 0 100px;
